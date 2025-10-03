@@ -1,0 +1,29 @@
+body
+{
+    background-color:rgb(60, 60, 60);
+}
+
+.circle
+{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 50%; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    user-select: none;
+    cursor: grab;
+}
+
+img
+{
+    user-select: none;   
+}
+
+button
+{
+    position: fixed; left: 0; top: 0;
+    user-select: none;
+}
